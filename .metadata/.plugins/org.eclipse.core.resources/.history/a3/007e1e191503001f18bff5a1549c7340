@@ -1,0 +1,27 @@
+package Questions3;
+
+public class SearchAnElementInArray {
+
+	public static void main(String[] args) {
+		// to search an Element in an array
+		
+		int a[] = {10,20,30,40,50};
+		int search_element = 30;
+		boolean status = false;
+		
+		for(int x : a) {
+			if(x==30) {
+				System.out.println("Elelemt Found");
+				status = true;
+				break;
+			}
+		}
+		if(status == false) {
+			System.out.println("Element not found");
+		}
+		
+		
+
+	}
+
+}

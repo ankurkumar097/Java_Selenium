@@ -1,0 +1,24 @@
+package SeleniumDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+// to use css selectors to locate elements on a web page
+
+public class Assessment2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://demo.opencart.com/");
+		Thread.sleep(4000);
+		driver.manage().window().maximize();
+		Thread.sleep(4000);
+		driver.findElement(By.cssSelector("a#narbar-menu")).click();
+		Thread.sleep(4000);
+		driver.quit();
+	}
+
+}

@@ -1,0 +1,33 @@
+package Assignment;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DatePicker {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().window().maximize();
+		
+		driver.get("https://dummy-tickets.com/buyticket");
+		
+		driver.findElement(By.xpath("//a[normalize-space()='Flight']")).click();
+		driver.findElement(By.xpath("//input[@value='onewaymain']")).click();
+		
+		driver.findElement(By.xpath("//form[@id='flight_oneway']//div[@class='col-sm-12 p-0 suggestion-container']//input[@name='source[]']")).sendKeys("IXC");
+		driver.findElement(By.xpath("//ul[@class='suggestions-list']//li")).click();
+		
+		driver.findElement(By.xpath("//form[@id='flight_oneway']//div[@class='col-sm-12 p-0 suggestion-container']//input[@name='destination[]']")).sendKeys("delhi");
+		driver.findElement(By.xpath("//form[@id='flight_oneway']//div[@class='col-sm-12 p-0 suggestion-container']//input[@name='destination[]']")).click();
+		
+		
+		
+		
+	}
+
+}

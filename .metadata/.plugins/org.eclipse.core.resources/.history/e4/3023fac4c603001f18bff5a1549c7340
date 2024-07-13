@@ -1,0 +1,13 @@
+package Questions3;
+
+public class SortingElementsUsingForLoop {
+
+	public static void main(String[] args) {
+		// to sort values of an array at descending order in an array
+		
+		int i[]= {40,60,10,80,30};
+		
+
+	}
+
+}

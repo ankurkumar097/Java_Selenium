@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;OopsConcept.MthodsType&apos; to &apos;MethodsType&apos;&#x0D;&#x0A;- Original project: &apos;JavaProgramming&apos;&#x0D;&#x0A;- Original element: &apos;OopsConcept.MthodsType&apos;&#x0D;&#x0A;- Renamed element: &apos;OopsConcept.MethodsType&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MthodsType&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;OopsConcept{MthodsType.java[MthodsType" matchStrategy="1" name="MethodsType" qualified="false" references="true" similarDeclarations="false" stamp="1714310188975" textual="false" version="1.0"/>
+</session>

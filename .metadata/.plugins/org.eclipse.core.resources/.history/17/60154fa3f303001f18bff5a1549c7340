@@ -1,0 +1,21 @@
+package Questions3;
+
+import java.util.Arrays;
+
+public class FindMissingNumberInArray {
+	// to find missing number in an array
+	// condition - should be in range, should not have duplicates
+	
+	public static void main(String[] args) {
+		
+		int a[] = {1,4,5,3};
+		System.out.println(a.length);
+		
+		Arrays.sort(a);
+		for(int i =0; i<=a.length -1; i++) {
+			
+			
+		}
+	}
+
+}

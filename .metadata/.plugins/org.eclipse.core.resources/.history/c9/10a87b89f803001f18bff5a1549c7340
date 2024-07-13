@@ -1,0 +1,15 @@
+package Questions3;
+
+import java.util.Arrays;
+
+public class SmallestNumberInArray {
+
+	public static void main(String[] args) {
+		// to find lowest number in an array
+		
+		int a[]= {20,10,40,60};
+		System.out.println(Arrays.sort(a));
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package Questions3;
+
+public class SortingElementsUsingForLoop {
+
+	public static void main(String[] args) {
+		// to sort values of an array at descending order in an array
+		
+		int a[]= {60,40,10,80,30};
+		
+		for(int i =0; i<a.length; i++) {
+			if(a[i] > a[i+1]) {
+				a[i]= a[i+1];
+				
+			}
+		}
+
+	}
+
+}
